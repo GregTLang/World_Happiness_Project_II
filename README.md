@@ -9,7 +9,9 @@ Transform:
   Data Cleaning/Transformation Required
   1. Join - by int Country
   2. Convert Data Type - Perceptions_Of_Corruption and Residual from string to int in the data file
-  3. Remove Columns - 
+  3. Rename Columns -
+  4. Remove Columns - 
+  5. Remove Rows -
 
 Load:
   Final Database, Tables/Collections, Why This Was Chosen
