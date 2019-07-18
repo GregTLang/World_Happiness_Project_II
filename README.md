@@ -7,8 +7,8 @@ Extract:
   
 Transform:
   Data Cleaning/Transformation Required
-  1. Join - files were joined by int Country
-  2. Change Data Type - Perceptions_Of_Corruption and Residual were both ints saved as strings in the original files
+  1. Join - by int Country
+  2. Convert Data Type - Perceptions_Of_Corruption and Residual from string to int in the data file
   3. Remove Columns - 
 
 Load:
