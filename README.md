@@ -6,12 +6,11 @@ Extract:
   2. World Happiness 2017 (CSV) : https://www.kaggle.com/unsdsn/world-happiness#2017.csv
   
 Transform:
-  Data Cleaning/Transformation Required
-  1. Join - by int Country
-  2. Convert Data Type - Perceptions_Of_Corruption and Residual from string to int in the data file
-  3. Rename Columns -
-  4. Remove Columns - 
-  5. Remove Rows -
+  Data Cleaning/Transformation Required:
+  We started by creating a filtered dataframe from specific columns of the first data source (country, happiness rank, happiness score, health life expectancy, freedom, generosity, gdp, government corruption) to bring in only the columns that we would want to use in the analysis. 
+  Next we cleaned up the column headers by renaming several of the columns. 
+  From the second data source we repeated the first two steps -creating a filtered dataframe from specific columns and renaming the headers to coordinate (when needed) with the first data set.
+  
 
 Load:
   Final Database, Tables/Collections, Why This Was Chosen
