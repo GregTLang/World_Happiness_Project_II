@@ -13,4 +13,4 @@ Transform: Data Cleaning/Transformation Required
 
 Load: Final Database, Tables/Collections, Why This Was Chosen
 
-The final database used for this analysis is SQLpostgres. In[6] of the jupyter notebook creates a database connection allowing us to work with our cleaned data in a relational database. The benefits of using SQL are that relational databased enable dynamic views and allow for us to explore the two data sets while maintaining a defined relationship between the two.
+The final database used for this analysis is SQLpostgres. In[6] of the jupyter notebook creates a database connection allowing us to work with our cleaned data in a relational database. The benefits of using SQL are that relational databased enable dynamic views and allow for us to explore the two data sets while maintaining a defined relationship between the two. Since our two data sources represent YoY change in world happiness statistics, having that set relationship with flexibility in view depending on needs of specific analysis is crucial.
